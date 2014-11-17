@@ -1,0 +1,93 @@
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+html {
+	//background: none repeat scroll 0 0 #C7CAD0;
+	background: url("../imaging/background.jpg") repeat scroll 0 0 transparent;
+}
+#content {
+	font-family: 'Ubuntu Condensed', sans-serif;
+	width: 980px;
+	margin: 0 auto;
+	//outline: 3px dotted red;
+	margin-top: 200px;
+	height: auto;
+	border: 2px solid #b6bbbe;
+	//background-color: #f5fcdc;
+	box-shadow: 3px 3px 1px #b6bbbe;
+	/*-moz-border-radius-bottomright: 50px 25px;
+	-moz-border-radius-bottomleft: 50px 25px;
+	-moz-border-radius-topleft: 50px 25px;
+	-moz-border-radius-topright: 50px 25px;
+	border-bottom-right-radius: 50px 25px;
+	border-bottom-left-radius: 50px 25px;
+	border-top-left-radius: 50px 25px;
+	border-top-right-radius: 50px 25px;
+	background-color: #d5edca;*/
+	
+	
+}
+#page{
+	//font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Satisfy', cursive;
+	width: 980px;
+	margin: 0 auto;
+	background: white;
+	//outline: 3px dotted red;
+	height: auto;
+	font-size: 40px;
+	margin-top: 30px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+p, ul{
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Abel', sans-serif;
+	
+}
+p{
+	margin-left: 15px;
+	
+}
+
+h2{
+	font-size: 22px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	border-bottom: 1px solid #b6c6ce;
+	margin: 10px 0px;
+}
+h3{
+	font-size: 18px;
+	font-family: 'Abel', sans-serif;	
+	font-weight: bold;
+}
+#set-1 {
+	margin-left: 10px;
+	font-size: 30px;
+	color: #0099FF;
+	font-family: 'Rock Salt', cursive;
+	text-shadow: 1px 2px 0 #333333;
+	/*-moz-border-radius-bottomright: 50px 25px;
+	-moz-border-radius-bottomleft: 50px 25px;
+	-moz-border-radius-topleft: 50px 25px;
+	-moz-border-radius-topright: 50px 25px;
+	border-bottom-right-radius: 50px 25px;
+	border-bottom-left-radius: 50px 25px;
+	border-top-left-radius: 50px 25px;
+	border-top-right-radius: 50px 25px;
+	background-color: #d5edca;
+	width: 300px;*/
+}
+#set-2 {
+	font-size: 80px;
+	color: #333333;
+	text-shadow: 3px 3px 0 #babdc8 ;
+	margin-left: 60px;
+}
+#url {
+	color: red;
+	text-shadow: 3px 3px #5c1530;
+}
