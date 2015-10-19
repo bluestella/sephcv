@@ -1,3 +1,8 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Cookie);
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7,10 +12,42 @@
 
 /* Space out content a bit */
 body {
+
+  background-image: url(../images/paper_fibers.png);
+  color: #50505a;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 16px;
 }
+.container{
+  background-color: #fff;
+  border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+-webkit-border-radius: 0px 0px 0px 0px;
+border: 6px solid #fafafa;
+}
+header h1{
+font-family: 'Cookie', cursive;
+font-size: 50px;
+}
+section h3{
 
+  font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    padding: 0 0 5px 0;
+}
+section h4{
+  font-weight: 600;
+}
+section{
+  font-family: 'Open Sans', sans-serif;
+line-height: 1.58;
+letter-spacing: -0.010em;
+}
+section p{
+  margin-left: 30px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -20,16 +57,8 @@ body {
 }
 
 /* Custom page header */
-.header {
+h3 {
   border-bottom: 1px solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
 }
 
 /* Custom page footer */
@@ -42,48 +71,22 @@ body {
 .container-narrow > hr {
   margin: 30px 0;
 }
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 930px;
   }
 
   /* Remove the padding we set earlier */
-  .header,
-  .marketing,
+  header,
   .footer {
     padding-left: 0;
     padding-right: 0;
   }
 
   /* Space out the masthead */
-  .header {
+  header {
     margin-bottom: 30px;
   }
 
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
 }
