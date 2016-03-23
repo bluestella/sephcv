@@ -8,7 +8,7 @@
  * Controller of the sephcvApp
  */
 angular.module('sephcvApp')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($scope) {
 
 $scope.header = [{
   "name": "Joseph Rannie M. Buluran",
@@ -18,7 +18,7 @@ $scope.header = [{
 }];
 
 $scope.summary = [{
-  "paragraph" : "With five years of thorough knowledge in Application Development with an extensive experience in web design and development, Electronic Data Interchange (EDI), Web Content Management Systems such as Adobe CQ5 and Enterprise Content Management (ECM) tools such as Alfresco, and Content Server."
+  "paragraph" : "With six years of thorough knowledge in Application Development with an extensive experience in web design and development, Electronic Data Interchange (EDI), Web Content Management Systems such as Adobe CQ5 and Enterprise Content Management (ECM) tools such as Alfresco, and Content Server."
 }];
 
 
