@@ -8,8 +8,9 @@
       <md-card-title>
         <md-card-title-text>
           <span class="md-headline">{{head.name}}</span>
-          <span class="md-subhead">{{head.email}}</span>
-          <span class="md-subhead">{{head.website}}</span>
+          <span class="md-subhead"><a href="tel:{{head.mobile}}">{{head.mobile}}</a></span>
+          <span class="md-subhead"><a href="mailto:{{head.emailreal}}">{{head.email}}</a></span>
+          <span class="md-subhead"><a href="{{head.website}}">{{head.website}}</a></span>
         </md-card-title-text>
         <md-card-title-media>
           <div class="md-media-lg card-media"></div>
